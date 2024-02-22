@@ -77,7 +77,6 @@ public class MainActivity extends AppCompatActivity {
             // In landscape
             Intent intent = new Intent(MainActivity.this, LandScape.class);
             startActivity(intent);
-
         }
 
     }

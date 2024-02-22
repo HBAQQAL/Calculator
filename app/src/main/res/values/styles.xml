@@ -6,6 +6,11 @@
         <item name="android:layout_columnWeight">1</item>
         <item name="android:layout_rowWeight">1</item>
         <item name="android:layout_gravity">fill</item>
+<!--         set the text size -->
+        <item name="android:textSize">25sp</item>
+
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:textStyle">bold</item>
 
 
 
