@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="0dp"
+        android:gravity="start"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="100dp"
+            android:gravity="end"
+            android:hint="0"
+            android:inputType="text"
+            android:textSize="60sp"
+            android:paddingRight="10dp"
+            android:id="@+id/edtResult"
+            android:background="@null"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            >
+            <GridLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:rowCount="5"
+                android:columnCount="4">
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/btnStyle2"
+                    android:text="C"
+                    android:id="@+id/btnC"
+                    />
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/btnStyle2"
+                    android:text="\u00F7"
+                    android:id="@+id/btnDiv"
+                    />
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/btnStyle2"
+                    android:text="\u00D7"
+                    android:id="@+id/btnMul"
+                    />
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/btnStyle2"
+                    android:text="⌫"
+                    android:id="@+id/btnDel"
+                    />
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/btnStyle3"
+                    android:text="7"
+                    android:id="@+id/btn7"
+                    />
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/btnStyle3"
+                    android:text="8"
+                    android:id="@+id/btn8"
+                    />
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/btnStyle3"
+                    android:text="9"
+                    android:id="@+id/btn9"
+                    />
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/btnStyle2"
+                    android:text="-"
+                    android:id="@+id/btnSub"
+                    />
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/btnStyle3"
+                    android:text="4"
+                    android:id="@+id/btn4"
+                    />
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/btnStyle3"
+                    android:text="5"
+                    android:id="@+id/btn5"
+                    />
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/btnStyle3"
+                    android:text="6"
+                    android:id="@+id/btn6"
+                    />
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/btnStyle2"
+                    android:text="+"
+                    android:id="@+id/btnAdd"
+                    />
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/btnStyle3"
+                    android:text="1"
+                    android:id="@+id/btn1"
+                    />
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/btnStyle3"
+                    android:text="2"
+                    android:id="@+id/btn2"
+                    />
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/btnStyle3"
+                    android:text="3"
+                    android:id="@+id/btn3"
+                    />
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/btnStyle2"
+                    android:text="%"
+                    android:id="@+id/btnMod"
+                    />
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/btnStyle3"
+                    android:text="%"
+
+                    />
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/btnStyle3"
+                    android:text="0"
+                    android:id="@+id/btn0"
+                    />
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/btnStyle3"
+                    android:text="."
+                    android:id="@+id/btnDot"
+                    />
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/btnStyle4"
+                    android:text="="
+                    android:id="@+id/btnEqual"
+                    />
+
+
+
+
+            </GridLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
